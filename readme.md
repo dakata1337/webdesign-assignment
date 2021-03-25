@@ -1,7 +1,8 @@
 # Web Design Assignment
 > This is my Web Design Assignment. The code is bad and ye..
+</br>
 
 ## Languages used
-> HTML
-> CSS
-> SASS
+* HTML</br>
+* CSS</br>
+* SASS</br>
