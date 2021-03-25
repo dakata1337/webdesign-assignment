@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" type="image/png" href="../icons/favicon.ico">
+</head>
+
+<body>
+    <div>
+        <div class="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/">Начало</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div style="text-align: center; padding-bottom: 15px;">
+                <a class="title">Какво е RAM?</a>
+            </div>
+            <div style="padding: 0 1px;">
+                <div>
+                    <a>
+                        RAM (Random Access Memory) - памет с произволен достъп. Нарича се „с произволен достъп“, защото
+                        до всяко място от паметта може да се стигне много бързо. Паметта служи като буфер между
+                        <a href="cpu.html">CPU</a> и останалите компютърни компоненти. CPU може да изпълнява само тези
+                        инструкции и да ползва само тези данни, които са в RAM паметта. Важна характеристика на тази
+                        памет е, че е енергозависима. Няма захранване - няма информация.
+                    </a>
+                    <img class="picture"
+                        src="../images/ram.jpg">
+                </div>
+
+                <div style="padding-top: 15px;">
+                    <a style="font-size: 24px; color: white">Видове RAM:</a>
+                    <ul style="margin: 0 0;">
+                        <li>
+                            <a href="#SRAM">SRAM (Static Random Access Memory)</a>
+                        </li>
+                        <li>
+                            <a href="#DRAM">DRAM (Dynamic Random Access Memory)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="padding-top: 25px;" id="SRAM">
+                    <a style="font-size: 24px; color: white">SRAM (Static Random Access Memory)</a>
+                    <div>
+                        <a>
+                            Статичната RAM памет запазва съдържанието си, докато се захранва. Данните обаче се губят,
+                            когато захранването намалee. SRAM чиповете използват матрица от 6-транзистори и без
+                            кондензатори. Транзисторите не изискват захранване за предотвратяване на течове, така че
+                            SRAM не трябва да се обновява редовно.
+                        </a><br>
+                        <a>
+                            В матрицата има допълнително място, следователно SRAM използва повече чипове от DRAM за
+                            същото количество място за съхранение, което прави производствените разходи по-високи.
+                            Следователно SRAM се използва като кеш памет и има много бърз достъп.
+                        </a>
+                    </div>
+                </div>
+
+                <div style="padding-top: 25px;" id="DRAM">
+                    <a style="font-size: 24px; color: white">DRAM (Dynamic Random Access Memory)</a>
+                    <div>
+                        <a>
+                            DRAM, за разлика от SRAM, трябва непрекъснато да се обновява, за да се поддържат данните.
+                            Това става чрез поставяне на паметта в схема за опресняване, която пренаписва данните
+                            няколко стотин пъти в секунда. DRAM се използва за повечето системна памет, тъй като е
+                            евтина и малка. Всички DRAM са съставени от клетки с памет, които са съставени от един
+                            кондензатор и един транзистор.
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
