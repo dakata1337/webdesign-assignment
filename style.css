@@ -133,4 +133,10 @@ a:link, a:visited {
 .post #info a#postTitle {
   color: #fff;
 }
+
+.readme h1, .readme h2, .readme h3, .readme h4, .readme h5, .readme h6 {
+  color: #fff;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c2c2c2;
+}
 /*# sourceMappingURL=style.css.map */
