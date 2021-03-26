@@ -3,6 +3,8 @@
 </br>
 
 ## Languages used
-* HTML</br>
-* CSS</br>
-* SASS</br>
+* HTML </br>
+* CSS </br>
+* SASS </br>
+
+### Credits to all owners of the images used!
