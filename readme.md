@@ -6,5 +6,6 @@
 * HTML </br>
 * CSS </br>
 * SASS </br>
+* JS </br>
 
 ### Credits to all owners of the images used!
