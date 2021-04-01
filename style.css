@@ -3,7 +3,9 @@
 /*  Bruh Moment              */
 body {
   background-color: #24292E;
-  color: #00c58a;
+  color: #c2c2c2;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 html {
@@ -11,7 +13,7 @@ html {
 }
 
 a:link, a:visited {
-  color: #79B8E0;
+  color: #e9e9e9;
   -webkit-text-decoration: underline solid;
           text-decoration: underline solid;
 }
@@ -24,9 +26,12 @@ a:link, a:visited {
   width: 100%;
   height: 30px;
   text-align: center;
-  border-bottom: 1px dotted #00c58a;
+  border-bottom: 1px dotted #c2c2c2;
   font-size: 22px;
   top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #24292E;
 }
 
 .menu ul {
@@ -40,7 +45,7 @@ a:link, a:visited {
 }
 
 .menu ul a {
-  color: #00c58a;
+  color: #c2c2c2;
   text-decoration: none;
 }
 
@@ -55,7 +60,7 @@ a:link, a:visited {
 }
 
 .menu ul li:hover a {
-  color: #79B8E0;
+  color: #e9e9e9;
 }
 
 .content {
@@ -71,7 +76,7 @@ a:link, a:visited {
 }
 
 .content ul a {
-  color: #79B8E0;
+  color: #e9e9e9;
   text-decoration: none;
 }
 
@@ -81,18 +86,22 @@ a:link, a:visited {
 }
 
 .content .table table, .content .table th, .content .table td {
-  border: 1px solid #00c58a;
-  border-collapse: collapse;
+  border: 1px solid #c2c2c2;
   text-align: center;
 }
 
 .title {
-  color: #79B8E0;
+  color: #e9e9e9;
   font-size: 32px;
 }
 
+.title24 {
+  color: #e9e9e9;
+  font-size: 24px;
+}
+
 .subtitle {
-  color: #00c58a;
+  color: #c2c2c2;
   font-size: 26px;
 }
 
@@ -103,7 +112,7 @@ a:link, a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #79B8E0;
+  border: 1px solid #e9e9e9;
 }
 
 .social img {
@@ -118,14 +127,14 @@ a:link, a:visited {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 1px solid #79B8E0;
+  border: 1px solid #e9e9e9;
   margin: 20px auto;
 }
 
 .post img {
   margin: 12px 10px;
   max-width: 380px;
-  border: 1px solid #00c58a;
+  border: 1px solid #c2c2c2;
 }
 
 .post #postImage {
@@ -137,12 +146,12 @@ a:link, a:visited {
 }
 
 .post #info a#postTitle {
-  color: #79B8E0;
+  color: #e9e9e9;
 }
 
 .readme h1, .readme h2, .readme h3, .readme h4, .readme h5, .readme h6 {
-  color: #79B8E0;
+  color: #e9e9e9;
   padding-bottom: 5px;
-  border-bottom: 1px solid #00c58a;
+  border-bottom: 1px solid #c2c2c2;
 }
 /*# sourceMappingURL=style.css.map */

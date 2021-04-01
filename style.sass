@@ -2,19 +2,22 @@
 /*  Bruh Moment              */
 
 // Theme #1
-// $base-color: #222
-// $font-color-inactive: #c2c2c2
-// $font-color-active: #fff
+$base-color: #24292E
+$font-color-inactive: #c2c2c2
+$font-color-active: #e9e9e9
+$table-color: #c2c2c2
 
 // Theme #2
-$base-color: #24292E
-$font-color-inactive: #00c58a
-$font-color-active: #79B8E0
+// $base-color: #24292E
+// $font-color-inactive: #00c58a
+// $font-color-active: #79B8E0
+// $table-color: #c2c2c2
 
 //Body
 body
     background-color: $base-color
     color: $font-color-inactive
+    position: sticky
 
 //Head
 html
@@ -36,6 +39,9 @@ a
     border-bottom: 1px dotted $font-color-inactive
     font-size: 22px
     top: 0
+    // Uncomment for sticky menu
+    position: sticky
+    background-color: $base-color
 
     ul
         max-width: 100%
@@ -77,14 +83,18 @@ a
 
     .table
         table, th, td
-            border: 1px solid $font-color-inactive
-            border-collapse: collapse
+            border: 1px solid $table-color
             text-align: center
 
 //Title
 .title
     color: $font-color-active
     font-size: 32px
+//Title
+.title24
+    color: $font-color-active
+    font-size: 24px
+
 //Subtitle
 .subtitle
     color: $font-color-inactive
