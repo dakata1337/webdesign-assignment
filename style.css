@@ -2,8 +2,8 @@
 /*  Copyright Dakata © 2021  */
 /*  Bruh Moment              */
 body {
-  background-color: #2e2e2e;
-  color: #c2c2c2;
+  background-color: #24292E;
+  color: #00c58a;
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 a:link, a:visited {
-  color: #fff;
+  color: #79B8E0;
   -webkit-text-decoration: underline solid;
           text-decoration: underline solid;
 }
@@ -24,7 +24,7 @@ a:link, a:visited {
   width: 100%;
   height: 30px;
   text-align: center;
-  border-bottom: 1px dotted #c2c2c2;
+  border-bottom: 1px dotted #00c58a;
   font-size: 22px;
   top: 0;
 }
@@ -40,13 +40,13 @@ a:link, a:visited {
 }
 
 .menu ul a {
-  color: #c2c2c2;
+  color: #00c58a;
   text-decoration: none;
 }
 
 .menu ul li {
   margin: 0 8px;
-  background-color: #2e2e2e;
+  background-color: #24292E;
 }
 
 .menu ul li:hover {
@@ -55,7 +55,7 @@ a:link, a:visited {
 }
 
 .menu ul li:hover a {
-  color: #fff;
+  color: #79B8E0;
 }
 
 .content {
@@ -71,7 +71,7 @@ a:link, a:visited {
 }
 
 .content ul a {
-  color: #fff;
+  color: #79B8E0;
   text-decoration: none;
 }
 
@@ -81,18 +81,18 @@ a:link, a:visited {
 }
 
 .content .table table, .content .table th, .content .table td {
-  border: 1px solid #c2c2c2;
+  border: 1px solid #00c58a;
   border-collapse: collapse;
   text-align: center;
 }
 
 .title {
-  color: #fff;
+  color: #79B8E0;
   font-size: 32px;
 }
 
 .subtitle {
-  color: #c2c2c2;
+  color: #00c58a;
   font-size: 26px;
 }
 
@@ -103,7 +103,7 @@ a:link, a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #fff;
+  border: 1px solid #79B8E0;
 }
 
 .social img {
@@ -118,14 +118,14 @@ a:link, a:visited {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 1px solid #fff;
+  border: 1px solid #79B8E0;
   margin: 20px auto;
 }
 
 .post img {
   margin: 12px 10px;
   max-width: 380px;
-  border: 1px solid #c2c2c2;
+  border: 1px solid #00c58a;
 }
 
 .post #postImage {
@@ -137,12 +137,12 @@ a:link, a:visited {
 }
 
 .post #info a#postTitle {
-  color: #fff;
+  color: #79B8E0;
 }
 
 .readme h1, .readme h2, .readme h3, .readme h4, .readme h5, .readme h6 {
-  color: #fff;
+  color: #79B8E0;
   padding-bottom: 5px;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #00c58a;
 }
 /*# sourceMappingURL=style.css.map */
