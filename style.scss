@@ -13,19 +13,19 @@ $table-color: #c2c2c2;
 // $font-color-active: #79B8E0
 // $table-color: #c2c2c2
 
-//Body
+// Body
 body {
     background-color: $base-color;
     color: $font-color-inactive;
     position: sticky;
 }
 
-//Head
+// Head
 html {
     scroll-behavior: smooth;
 }
 
-//All Links
+// All Links
 a {
     &:link, &:visited {
         color: $font-color-active;
@@ -33,7 +33,7 @@ a {
     }
 }
 
-//Top Menu
+// Top Menu
 .menu {
     display: flex;
     margin: 0 0;
@@ -71,7 +71,7 @@ a {
     }
 }
 
-//Main Content
+// Main Content
 .content {
     bottom: 0;
     font-size: 20px;
@@ -102,24 +102,24 @@ a {
     }
 }
 
-//Title
+// Title
 .title {
     color: $font-color-active;
     font-size: 32px;
 }
 
-//Title
+// Title
 .title24 {
     color: $font-color-active;
     font-size: 24px;
 }
 
-//Subtitle
+// Subtitle
 .subtitle {
     color: $font-color-inactive;
     font-size: 26px;
 }
-//Pictures
+// Pictures
 .picture {
     margin: 15px 0;
     padding: 1px;
@@ -130,7 +130,7 @@ a {
     border: 1px solid $font-color-active;
 }
 
-//Social Media Accounts
+// Social Media Accounts
 .social {
     img {
         width: 32px;
@@ -139,7 +139,7 @@ a {
     }
 }
 
-//Home page Posts
+// Home page Posts
 .post {
     width: 80%;
     min-height: 213px;
@@ -164,7 +164,7 @@ a {
         }
     }
 }
-//ReadMe File from Github
+// ReadMe File from Github
 .readme {
     h1, h2, h3, h4, h5, h6 {
         color: $font-color-active;
