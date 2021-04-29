@@ -1,0 +1,174 @@
+/*  Copyright Dakata © 2021  */
+/*  Bruh Moment              */
+
+// Theme #1
+$base-color: #24292E;
+$font-color-inactive: #c2c2c2;
+$font-color-active: #e9e9e9;
+$table-color: #c2c2c2;
+
+// Theme #2
+// $base-color: #24292E
+// $font-color-inactive: #00c58a
+// $font-color-active: #79B8E0
+// $table-color: #c2c2c2
+
+//Body
+body {
+    background-color: $base-color;
+    color: $font-color-inactive;
+    position: sticky;
+}
+
+//Head
+html {
+    scroll-behavior: smooth;
+}
+
+//All Links
+a {
+    &:link, &:visited {
+        color: $font-color-active;
+        text-decoration: underline solid;
+    }
+}
+
+//Top Menu
+.menu {
+    display: flex;
+    margin: 0 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px dotted $font-color-inactive;
+    font-size: 22px;
+    top: 0;
+    // Uncomment for sticky menu
+    position: sticky;
+    background-color: $base-color;
+
+    ul {
+        max-width: 100%;
+        margin: auto;
+        list-style-type: none;
+        display: flex;
+        padding: 0 0 ;
+        a {
+            color: $font-color-inactive;
+            text-decoration: none;
+        }
+
+        li {
+            margin: 0 8px;
+            background-color: $base-color;
+            &:hover {
+                text-decoration: 1px solid underline;
+                a {
+                    color: $font-color-active;
+                }
+            }
+        }
+    }
+}
+
+//Main Content
+.content {
+    bottom: 0;
+    font-size: 20px;
+    max-width: 950px;
+    min-width: 750px;
+    padding: 10px 15px;
+    display: absolute;
+    width: 100%;
+    max-height: 100%;
+    margin: 10px auto;
+    //border: 1px solid $font-color-inactive
+    
+    ul {
+        a {
+            color: $font-color-active;
+            text-decoration: none;
+            &:hover {
+                text-decoration: 1px solid underline;
+            }
+        }
+    }
+
+    .table {
+        table, th, td {
+            border: 1px solid $table-color;
+            text-align: center;
+        }
+    }
+}
+
+//Title
+.title {
+    color: $font-color-active;
+    font-size: 32px;
+}
+
+//Title
+.title24 {
+    color: $font-color-active;
+    font-size: 24px;
+}
+
+//Subtitle
+.subtitle {
+    color: $font-color-inactive;
+    font-size: 26px;
+}
+//Pictures
+.picture {
+    margin: 15px 0;
+    padding: 1px;
+    max-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $font-color-active;
+}
+
+//Social Media Accounts
+.social {
+    img {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+    }
+}
+
+//Home page Posts
+.post {
+    width: 80%;
+    min-height: 213px;
+    height: fit-content;
+    border: 1px solid $font-color-active;
+    margin: 20px auto;
+
+    img {
+        margin: 12px 10px;
+        max-width: 380px;
+        border: 1px solid $font-color-inactive;
+    }
+    
+    #postImage {
+        float: left;
+    }
+    #info {
+        padding: 12px 9px;
+
+        a#postTitle {
+            color: $font-color-active;
+        }
+    }
+}
+//ReadMe File from Github
+.readme {
+    h1, h2, h3, h4, h5, h6 {
+        color: $font-color-active;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $font-color-inactive;
+    }
+}
