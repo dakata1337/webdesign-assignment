@@ -75,7 +75,7 @@ a {
 .content {
     bottom: 0;
     font-size: 20px;
-    max-width: 950px;
+    max-width: 750px;
     min-width: 750px;
     padding: 10px 15px;
     display: absolute;
@@ -141,7 +141,7 @@ a {
 
 // Home page Posts
 .post {
-    width: 80%;
+    width: 100%;
     min-height: 213px;
     height: fit-content;
     border: 1px solid $font-color-active;
