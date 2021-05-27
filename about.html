@@ -29,7 +29,7 @@
                     return xmlHttp.responseText;
                 }
                 var preview = document.getElementById("preview");
-                preview.innerHTML += markdown.toHTML(httpGet("https://raw.githubusercontent.com/dakata1337/webdesign-assignment/master/readme.md").replaceAll('</br>',''));
+                preview.innerHTML += markdown.toHTML(httpGet("./readme.md").replaceAll('</br>',''));
             </script>
         </div>
     </div>
